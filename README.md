@@ -30,7 +30,7 @@ Follow these steps to set up and run the project:
 
 4. Install the required dependencies:
 
-pip install PyQt5.
+pip install PyQt5,Sqlite3,Pickle.
 
 
 
@@ -39,17 +39,17 @@ pip install PyQt5.
 The project relies on the following dependencies:
 
 - PyQt5
+- Sqlite3
+- Pickle
 
 
 
 ## Usage
 
-1. Create Database using pgAdmin with the same database credential as specified in settings.py.
-2. Run python manage.py makemigratings, python manage.py migrate.
-3. Run python manage.py CreateSuperuser and specify your admin Credentials.
-4. Run python manage.py runserver, copy the url provided in the terminal and paste in any browser.
-5. Navigate to admin panel and add coordinates of parcels. The coordinates must be in Ghana National Grid Coordinate System.
-6. Signup and login into the client page and search for 1 or more parcels by entering 1 parcel or at most three parcel IDs to view the details of the lands
+1. Run Project_Manage_Ui.py .
+2. Add the Database Name.
+3. Add daily, weekly and Overral project details and save.
+4. Close and Refresh to load all tasks and sechedules, edit or delete
 
 <!-- You can add screenshots or GIFs here to demonstrate the usage -->
 
